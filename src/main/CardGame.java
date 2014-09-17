@@ -6,12 +6,15 @@ public class CardGame {
 	Card c;
 	
 	public CardGame() {
-		c = new Card;
+		c = new Card();
 		run = true;
 	}
 	public static void main(String[] args) {
 		CardGame cg = new CardGame();
 		cg.run();
+	}
+	public void run(){
+		c.CreateQandA();
 	}
 	
 }
