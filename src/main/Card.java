@@ -9,12 +9,11 @@ public class Card {
 	String A;
 	
 	public void CreateQandA(){
-		Scanner sc1 = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.println("Question");
-		String Q = sc1.next();
-		Scanner sc2 = new Scanner(System.in);
+		String Q = sc.nextLine();
 		System.out.println("Answer");
-		String A = sc2.next();
+		String A = sc.nextLine();
 	}
 	
 	public String getQuestion(){
