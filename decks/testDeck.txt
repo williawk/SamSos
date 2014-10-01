@@ -1,3 +1,14 @@
+10
+1
+4
+7
+8
+10
+6
+5
+9
+3
+2
 "What is the progress?", "Who is doing what?", "What information is available?"
 Important in a coordination mechanism
 Artifact, protocol, policies and conventions
@@ -8,4 +19,4 @@ Formal communication
 Preset agenda, One-Way, scheduled in advance
 People can see each other "within the technology"
 Lacking affordances of face to face communication
-1,4 7,8 10,6 5,9 3,2
+
