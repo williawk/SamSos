@@ -1,7 +1,7 @@
 package main;
 
 public class Player {
-
+//heipaadeg
 	String name;
 	int age;
 	String uname;
