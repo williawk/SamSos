@@ -1,7 +1,7 @@
 package main;
 
 public class Player {
-//Knut er kul!
+//Ida er kul!
 	String name;
 	int age;
 	String uname;
