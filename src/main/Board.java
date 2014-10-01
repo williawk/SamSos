@@ -1,13 +1,20 @@
 package main;
 
 import java.awt.List;
+import java.util.ArrayList;
 
 public class Board {
 	
 	public List pairList = new List();
 	
-	public Board(){
-		
+	private ArrayList deck;
+	
+	public Board(ArrayList deck){
+		this.deck = deck;
 	}
+	
+	public check
+	
+	
 
 }
