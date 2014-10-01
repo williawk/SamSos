@@ -12,9 +12,6 @@ public class Board {
 	public Board(ArrayList deck){
 		this.deck = deck;
 	}
-
-	
-	public check
 	
 	
 
