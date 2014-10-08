@@ -44,18 +44,18 @@ public class Deck {
 	
 	public void setDivideDeck(int numberOfPlayers){
 		int deckSize = cards.size();
+		int dividedDeckSize = deckSize/numberOfPlayers;
 		
-		for(int i = 1; i < numberOfPlayers; i++){
+		for(int i = 0; i < numberOfPlayers; i++){
 			ArrayList<Card> pDeck = new ArrayList<Card>();
-			int dividedDeckSize = (deckSize/numberOfPlayers);
+			
 			for(int j = 0; j < (dividedDeckSize); j ++){
 				int k = (int) (Math.random()*cards.size());
 				pDeck.add(cards.remove(k));
 			}
 			dividedDeck.add(pDeck);
-			System.out.println(dividedDeck.toString());
 		}
-
+	
 	}
 	public ArrayList<ArrayList<Card>> getDividedDeck(){
 		return this.dividedDeck;

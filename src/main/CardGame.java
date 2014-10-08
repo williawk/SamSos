@@ -11,11 +11,12 @@ public class CardGame {
 	public CardGame(ArrayList<Player> players) throws IOException {
 		this.players = players;
 		int numberOfPlayers = players.size();
-		System.out.println("Number OF Payers:" + numberOfPlayers);
+		
 		deck = new Deck("decks/testDeck.txt", numberOfPlayers);
+		deck.setDivideDeck(numberOfPlayers);
 		
 		for(int i= 0; i<numberOfPlayers; i ++){
-			deck.setDivideDeck(numberOfPlayers);
+			
 			ArrayList<Card> pDeck = deck.getDividedDeck().get(i);
 			Player player = players.get(i);
 			
