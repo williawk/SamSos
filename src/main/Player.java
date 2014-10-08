@@ -1,12 +1,11 @@
 package main;
 
 public class Player {
-//Knut er kul!
-	String name;
-	int age;
-	String uname;
+	private String name;
+	private int age;
+	private String uname;
 	
-	public void newPlayer(String name, int age, String uname){
+	public Player(String name, int age, String uname){
 		setName(name);
 		setAge(age);
 		setUname(uname);

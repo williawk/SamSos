@@ -4,13 +4,15 @@ import java.awt.List;
 import java.util.ArrayList;
 
 public class Board {
-	public List dekcList;
-	public List pairList = new List();
+	public ArrayList<Card> deck = new ArrayList<Card>();
+	public Player player;
 	
-	private ArrayList deck;
 	
-	public Board(ArrayList deck){
+	public Board(ArrayList deck, Player player){
 		this.deck = deck;
+		this.player = player;
+		
+		
 	}
 	
 	
